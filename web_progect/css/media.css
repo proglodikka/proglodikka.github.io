@@ -1,0 +1,75 @@
+@media all and (min-width: 1150px) {
+	.transparent:hover {
+		background-color: #00897b;
+		border-color:transparent;
+	}
+	.green:hover {
+		background-color: transparent;
+		border: 3px solid;
+	}
+	.nav-link:hover {
+		background-color: black;
+		color:white;
+	}
+
+	.second-item:hover {
+		background-color: #00897b;
+		color:white;
+		transform:scale(1.05);
+		box-shadow: 0 0 40px 5px rgba(0,0,0,0.4)
+	}
+
+	.second-item:hover .readmore {
+		color: white;
+	}
+
+	.second-item:hover .icon {
+		fill: white;
+		transition: 0.3s;
+	}
+
+	.readmore:hover {
+		width: 33%;
+		height: 65px;
+		transition: 0.3s ease-out;
+		box-shadow: 2px 2px black;
+	}
+
+	.img-shinshilla-group:hover{
+		filter: contrast(140%);
+		transition: 0.4s ease-out;
+		filter: invert(100%)
+	}
+}
+
+@media all and (max-width: 768px) {
+	.nav-wrapper {
+		overflow: auto;
+		white-space: nowrap;
+	}
+	.logo, .search-wrapper, .topnav {
+		display: inline-block;
+	}
+	.h1 {
+		font-size: 8vw;
+	}
+	.header-btn {
+		width: 90vw;
+		height: 60px;
+	}
+	.header-btn + .header-btn {
+		margin-left: 0;
+	}
+	.second-item, .first-item {
+		width: 90%;
+		margin: 20px auto;
+		padding-left: 10%;
+	}
+	.first-box {
+		margin-top: 50px;
+		flex-wrap: wrap;
+	}
+	.section-subtitle {
+		width: 85%;
+	}
+}
