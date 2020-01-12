@@ -1,0 +1,64 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+	letter-spacing: 2px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.buy-apples-header {
+	width: 100%;
+	height: 150px;
+	font-size: 5rem;
+	letter-spacing: 4px;
+}
+
+.main-body {
+	display: flex;
+}
+
+.types-of-apples {
+	margin: auto;
+	width: 70%;
+}
+
+.apple-img {
+	width: 250px;
+	height: 250px;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+.coast {
+	font-size: 2.5rem;
+	color: black;
+}
+
+.buy {
+	border:none;
+	width: 200px;
+	height: 60px;
+	font-size: 1.8rem;
+	display: inline-block;
+	margin-top: 40px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition:0.3s ease-in;
+	background-color: transparent;
+	border: 2px solid;
+	background-color: #00897b;
+}
+
+.buy:hover {
+	font-size: 1.85rem;
+	transition:0.3s ease-in;
+	background-color: darkgrey;
+}
+
+p {
+	font-size: 1.1rem;
+	color: black;
+}

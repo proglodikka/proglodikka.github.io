@@ -1,0 +1,53 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #222831;
+}
+
+.main {
+	width: 70%;
+	margin: auto;
+}
+
+.box {
+	border: 6px white double;
+	width: 1000px;
+	height: 1200px;
+}
+
+.img-shinshilla {
+	width: 800px;
+	height: 60%;
+	border: 3px grey solid;
+}
+
+.information {
+	font-size: 1.5rem;
+	color: white;
+}
+
+.coast {
+	font-size: 3rem;
+	color: gold;
+}
+
+.buy {
+	border:none;
+	width: 200px;
+	height: 60px;
+	font-size: 1.8rem;
+	display: inline-block;
+	margin-top: 40px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition:0.3s ease-in;
+	background-color: transparent;
+	background-color: #00897b;
+}
+
+.buy:hover {
+	font-size: 1.85rem;
+	transition:0.3s ease-in;
+	background-color: darkgrey;
+}
